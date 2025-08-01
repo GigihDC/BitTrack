@@ -2,6 +2,7 @@ buildscript {
     dependencies {
         classpath(libs.gradle)
         classpath(libs.google.services)
+        classpath(libs.firebase.crashlytics.gradle)
     }
 }
 

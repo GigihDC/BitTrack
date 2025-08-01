@@ -5,6 +5,7 @@ plugins {
     alias(libs.plugins.ktlint)
     id("kotlin-parcelize")
     id("com.google.gms.google-services")
+    id("com.google.firebase.crashlytics")
 }
 
 android {
@@ -26,7 +27,7 @@ android {
             isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
+                "proguard-rules.pro",
             )
         }
     }
@@ -111,6 +112,9 @@ dependencies {
     implementation(libs.retrofit)
     implementation(libs.retrofit.gson)
     implementation(libs.okhttp)
+    implementation(libs.logging.interceptor)
+    implementation(libs.lottie)
+    implementation(libs.swipeRefreshLayout)
     implementation(libs.koin.android)
 
     testImplementation(libs.junit)

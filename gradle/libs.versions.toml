@@ -10,6 +10,8 @@ material = "1.12.0"
 activity = "1.10.1"
 constraintlayout = "2.2.1"
 coil = "2.6.0"
+lottie = "3.4.0"
+swipeRefreshLayout = "1.1.0"
 lifecycle = "2.7.0"
 fragment-ktx = "1.6.2"
 navigationFragmentKtx = "2.7.7"
@@ -24,6 +26,7 @@ firebaseCrashlyticsGradle = "2.9.9"
 firebaseAuth = "22.3.1"
 retrofit = "2.9.0"
 okhttp = "4.12.0"
+okhttpInterceptor = "4.5.0"
 annotation = "1.7.1"
 ktlint = "12.1.0"
 koin = "3.5.6"
@@ -40,6 +43,12 @@ androidx-constraintlayout = { group = "androidx.constraintlayout", name = "const
 
 # coil image loader
 coil = { group = "io.coil-kt", name = "coil", version.ref = "coil" }
+
+# lottie
+lottie = { group = "com.airbnb.android", name = "lottie", version.ref = "lottie" }
+
+# swipe refresh layout
+swipeRefreshLayout = { group = "androidx.swiperefreshlayout", name = "swiperefreshlayout", version.ref = "swipeRefreshLayout" }
 
 # lifecycle
 lifecycle-runtime = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle" }
@@ -61,7 +70,7 @@ room-compiler = { group = "androidx.room", name = "room-compiler", version.ref =
 coroutine-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutine" }
 coroutine-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutine" }
 
-#firebase
+# firebase
 firebase-crashlytics = { group = "com.google.firebase", name = "firebase-crashlytics", version.ref = "firebaseCrashlytics" }
 gradle = { group = "com.android.tools.build", name = "gradle", version.ref = "gradle" }
 google-services = { group = "com.google.gms", name = "google-services", version.ref = "googleServices" }
@@ -72,6 +81,7 @@ firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version
 retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
 retrofit-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit" }
 okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
+logging-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttpInterceptor" }
 androidx-annotation = { group = "androidx.annotation", name = "annotation", version.ref = "annotation" }
 
 # Koin
