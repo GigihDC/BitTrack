@@ -7,17 +7,17 @@
 
     <fragment
         android:id="@+id/menu_tab_home"
-        android:name="com.arkan.a4crypto.presentation.home.HomeFragment"
+        android:name="com.verve.bittrack.presentation.home.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/menu_tab_profile"
-        android:name="com.arkan.a4crypto.presentation.profile.ProfileFragment"
+        android:name="com.verve.bittrack.presentation.profile.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
     <fragment
         android:id="@+id/menu_tab_favorite"
-        android:name="com.arkan.a4crypto.presentation.favorite.FavoriteFragment"
+        android:name="com.verve.bittrack.presentation.favorite.FavoriteFragment"
         android:label="fragment_favorite"
         tools:layout="@layout/fragment_favorite" />
 </navigation>
