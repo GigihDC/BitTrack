@@ -23,4 +23,3 @@ API Source: CoinGecko
 
 📦 APK Download
 Download latest APK https://drive.google.com/file/d/1DA7rNVGF8wJHpyDATWkwo3Xv9PPl2j1Q/view?usp=drive_link
-
