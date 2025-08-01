@@ -33,10 +33,14 @@ Data Persistence: Room + DataStore
 
 API Source: CoinGecko
 
+---
+
 ### 📷 Screenshots
 
 <img width="423" height="914" alt="image" src="https://github.com/user-attachments/assets/feafeaae-9df0-4a6a-a94a-9810a0759efe" />
 <img width="420" height="910" alt="image" src="https://github.com/user-attachments/assets/2812d45a-bf77-4e68-bcba-7f07bb330343" />
+
+---
 
 ### 📦 APK Download
 
